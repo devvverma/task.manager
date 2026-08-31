@@ -4,13 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Devartsx | Premium 3D Art Studio</title>
-    <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
-    <!-- FontAwesome Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <!-- Three.js for Tagda 3D Background -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
-    <!-- Vanilla Tilt -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.8.1/vanilla-tilt.min.js"></script>
 
     <style>
@@ -128,10 +124,9 @@
             text-decoration: none;
         }
 
-        .logo-img {
-            height: 44px;
-            width: auto;
-            object-fit: contain;
+        .logo-icon {
+            font-size: 1.8rem;
+            color: var(--accent-yellow);
             filter: drop-shadow(0 0 10px var(--accent-yellow));
         }
 
@@ -376,7 +371,6 @@
 </head>
 <body>
 
-    <!-- Opening Animation Screen -->
     <div id="intro-screen">
         <div class="intro-box">
             <h1 class="intro-title">Welcome to <span>Devartsx</span></h1>
@@ -384,23 +378,20 @@
         </div>
     </div>
 
-    <!-- 3D Background Canvas -->
     <canvas id="webgl-bg"></canvas>
 
-    <!-- Navbar -->
     <nav>
         <a href="#" class="logo-container">
-            <img src="logo.png" alt="Devartsx Logo" class="logo-img" id="main-logo">
+            <i class="fa-solid fa-palette logo-icon"></i>
             <span class="logo-text">Devarts<span>x</span></span>
         </a>
         <ul class="nav-links">
-            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#gallery">Portfolio</a></li>
             <li><a href="#pricing">Pricing</a></li>
-            <li><a href="#order">Order Commission</a></li>
+            <li><a href="#order">Order Sketch</a></li>
         </ul>
     </nav>
 
-    <!-- Hero Section -->
     <section class="hero">
         <span class="badge"><i class="fa-solid fa-gem"></i> Premium Yellow & White 3D Studio</span>
         <h1>Bring Your Favorite Photos To Life With <span>Handmade Art</span></h1>
@@ -408,36 +399,35 @@
         <a href="#order" class="btn-primary"><i class="fa-solid fa-paper-plane"></i> Order Your Sketch Now</a>
     </section>
 
-    <!-- 3D Gallery Section -->
     <section class="section" id="gallery">
         <div class="section-header">
-            <h2>Featured <span>Artworks</span></h2>
+            <h2>Portfolio & <span>Artworks</span></h2>
             <p>100% Hand-drawn with Premium Graphite & Charcoal Pencils</p>
         </div>
         <div class="gallery-grid">
-            <div class="art-card" data-tilt data-tilt-max="15" data-tilt-speed="400" data-tilt-glare data-tilt-max-glare="0.2">
-                <img src="shiva-parvati.jpg" alt="Divine Shiva Parvati Charcoal Sketch">
+            <div class="art-card" data-tilt data-tilt-max="15" data-tilt-speed="400">
+                <img src="https://images.unsplash.com/photo-1579783900882-c0d3dad7b119?w=600" alt="Shiv Parvati Sketch">
                 <div class="art-info">
                     <h4>Shiv Parvati Sketch</h4>
                     <p>Charcoal & Graphite Medium</p>
                 </div>
             </div>
-            <div class="art-card" data-tilt data-tilt-max="15" data-tilt-speed="400" data-tilt-glare data-tilt-max-glare="0.2">
-                <img src="anime-giyu.jpg" alt="Anime Sketch">
+            <div class="art-card" data-tilt data-tilt-max="15" data-tilt-speed="400">
+                <img src="https://images.unsplash.com/photo-1607604276583-eef5d076aa5f?w=600" alt="Anime Art">
                 <div class="art-info">
                     <h4>Anime Art (Giyu Tomioka)</h4>
                     <p>Graphite Pencil Artwork</p>
                 </div>
             </div>
-            <div class="art-card" data-tilt data-tilt-max="15" data-tilt-speed="400" data-tilt-glare data-tilt-max-glare="0.2">
-                <img src="ganesha.jpg" alt="Lord Ganesha Artwork">
+            <div class="art-card" data-tilt data-tilt-max="15" data-tilt-speed="400">
+                <img src="https://images.unsplash.com/photo-1578301978693-85fa9c0320b9?w=600" alt="Lord Ganesha Art">
                 <div class="art-info">
                     <h4>Lord Ganesha Portrait</h4>
                     <p>Detailed Charcoal Art</p>
                 </div>
             </div>
-            <div class="art-card" data-tilt data-tilt-max="15" data-tilt-speed="400" data-tilt-glare data-tilt-max-glare="0.2">
-                <img src="eye-detail.jpg" alt="Hyperrealistic Eye Sketch">
+            <div class="art-card" data-tilt data-tilt-max="15" data-tilt-speed="400">
+                <img src="https://images.unsplash.com/photo-1544717305-2782549b5136?w=600" alt="Hyperrealistic Eye Sketch">
                 <div class="art-info">
                     <h4>Hyper-Realistic Eye Study</h4>
                     <p>Graphite Pencil Detail</p>
@@ -446,14 +436,13 @@
         </div>
     </section>
 
-    <!-- 3D Pricing Section -->
     <section class="section" id="pricing">
         <div class="section-header">
             <h2>Commission <span>Pricing</span></h2>
             <p>Choose the size that best fits your room or gift requirements</p>
         </div>
         <div class="pricing-grid">
-            <div class="price-card" data-tilt data-tilt-max="10" data-tilt-speed="400">
+            <div class="price-card" data-tilt data-tilt-max="10">
                 <h3>A4 Portrait</h3>
                 <p style="color:var(--text-muted); margin-top:5px;">Ideal for single faces & closeups</p>
                 <div class="price">₹599</div>
@@ -466,7 +455,7 @@
                 <a href="#order" class="btn-primary" style="width:100%; justify-content:center;">Book A4 Size</a>
             </div>
 
-            <div class="price-card popular" data-tilt data-tilt-max="12" data-tilt-speed="400">
+            <div class="price-card popular" data-tilt data-tilt-max="12">
                 <h3>A3 Portrait</h3>
                 <p style="color:var(--text-muted); margin-top:5px;">Best for full detail & couple portraits</p>
                 <div class="price">₹999</div>
@@ -481,7 +470,6 @@
         </div>
     </section>
 
-    <!-- Order Form Section -->
     <section class="section" id="order">
         <div class="section-header">
             <h2>Place Commission <span>Request</span></h2>
@@ -506,7 +494,23 @@
                 </div>
                 <div class="form-group">
                     <label for="instructions">Custom Notes / Special Instructions</label>
-                    <textarea id="instructions" rows="4" placeholder="Mention any extra details (e.g., date required, specific background requests)..."></textarea>
+                    <textarea id="instructions" rows="4" placeholder="Mention any extra details..."></textarea>
                 </div>
                 <button type="submit" class="btn-submit">
-                    <i 
+                    <i class="fa-brands fa-whatsapp" style="font-size:1.4rem;"></i> Continue Order on WhatsApp
+                </button>
+            </form>
+        </div>
+    </section>
+
+    <a href="https://api.whatsapp.com/send?phone=917827417956" target="_blank" class="float-wa" title="Chat on WhatsApp">
+        <i class="fa-brands fa-whatsapp"></i>
+    </a>
+
+    <footer>
+        <p>&copy; 2026 Devartsx. All Rights Reserved. Crafted for Art Lovers.</p>
+    </footer>
+
+ </script>
+</body>
+</html>
