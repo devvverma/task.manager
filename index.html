@@ -9,11 +9,11 @@
     <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
     <style>
         :root {
-            --bg-color: #0f172a;
-            --card-bg: rgba(30, 41, 59, 0.7);
-            --border-color: rgba(255, 255, 255, 0.1);
+            --bg-color: #000000;
+            --card-bg: #0a0a0c;
+            --border-color: rgba(255, 255, 255, 0.08);
             --text-main: #f8fafc;
-            --text-muted: #94a3b8;
+            --text-muted: #71717a;
             --accent-green: #22c55e;
             --accent-pink: #ec4899;
             --accent-orange: #f97316;
@@ -30,7 +30,6 @@
 
         body {
             background-color: var(--bg-color);
-            background-image: radial-gradient(circle at 50% 0%, #1e293b 0%, var(--bg-color) 75%);
             color: var(--text-main);
             min-height: 100vh;
             padding: 20px;
@@ -62,8 +61,7 @@
             border-radius: 12px;
             text-align: center;
             margin-bottom: 25px;
-            backdrop-filter: blur(10px);
-            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
         }
 
         .quote-box p {
@@ -86,7 +84,6 @@
             padding: 18px;
             border-radius: 12px;
             text-align: center;
-            backdrop-filter: blur(10px);
         }
 
         .stat-card h3 {
@@ -115,7 +112,6 @@
             border: 1px solid var(--border-color);
             border-radius: 16px;
             padding: 20px;
-            backdrop-filter: blur(10px);
             transition: all 0.2s ease;
         }
 
@@ -144,11 +140,11 @@
             border-radius: 50%;
         }
 
-        /* Days Grid inside Card */
+        /* 30 Days Grid inside Card (7 columns layout) */
         .days-grid {
             display: grid;
             grid-template-columns: repeat(7, 1fr);
-            gap: 8px;
+            gap: 6px;
         }
 
         @media (max-width: 600px) {
@@ -158,10 +154,10 @@
         }
 
         .day-box {
-            background: rgba(15, 23, 42, 0.6);
+            background: #121216;
             border: 1px solid var(--border-color);
             border-radius: 8px;
-            padding: 10px 4px;
+            padding: 8px 2px;
             text-align: center;
             cursor: pointer;
             transition: all 0.2s ease;
@@ -174,17 +170,17 @@
         }
 
         .day-box .day-num {
-            font-size: 0.7rem;
+            font-size: 0.65rem;
             color: var(--text-muted);
-            margin-bottom: 4px;
+            margin-bottom: 2px;
         }
 
         .day-box .day-status {
-            font-size: 0.9rem;
+            font-size: 0.85rem;
         }
 
         .day-box.completed {
-            background: rgba(34, 197, 94, 0.2);
+            background: rgba(34, 197, 94, 0.15);
             border-color: var(--accent-green);
             animation: pulseCheck 0.4s ease;
         }
@@ -219,7 +215,7 @@
             padding: 12px 24px;
             border-radius: 30px;
             font-weight: 600;
-            box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+            box-shadow: 0 10px 25px rgba(0,0,0,0.5);
             z-index: 1000;
             transition: opacity 0.3s, bottom 0.3s;
         }
@@ -287,13 +283,12 @@
             </div>
         </div>
 
-        <!-- Systems List (14 Days Grid for each system) -->
+        <!-- Systems List (30 Days Grid for each system) -->
         <div class="systems-container" id="systemsContainer">
             <!-- Dynamically generated via JavaScript -->
         </div>
 
         <div class="footer-actions">
-            <button class="action-btn" onclick="markTodayAll()">Check Today's All</button>
             <button class="action-btn reset-btn" onclick="resetData()">Reset All Data</button>
         </div>
     </div>
@@ -310,10 +305,10 @@
             { id: 'sys5', name: 'Daily Sketch Work!', class: 'sys-5' }
         ];
 
-        const TOTAL_DAYS = 14; // Isko badha kar 30 bhi kar sakta hai
+        const TOTAL_DAYS = 30; // 30 Days Target set
 
         // Load data from localStorage or initialize empty
-        let trackerData = JSON.parse(localStorage.getItem('dev_systems_data')) || {};
+        let trackerData = JSON.parse(localStorage.getItem('dev_systems_data_30')) || {};
 
         const motivationQuotes = [
             "🔥 Amazing progress! Discipline beats motivation every single time.",
@@ -366,7 +361,7 @@
         function toggleDay(sysId, dayIndex) {
             let currentState = trackerData[sysId][dayIndex];
             trackerData[sysId][dayIndex] = !currentState;
-            localStorage.setItem('dev_systems_data', JSON.stringify(trackerData));
+            localStorage.setItem('dev_systems_data_30', JSON.stringify(trackerData));
 
             // If checked (turned true), trigger animation & confetti!
             if (!currentState) {
@@ -377,14 +372,12 @@
         }
 
         function triggerCelebration() {
-            // Trigger Confetti
             confetti({
                 particleCount: 80,
                 spread: 70,
                 origin: { y: 0.6 }
             });
 
-            // Show Toast with random motivation
             const toast = document.getElementById('toast');
             const randomQuote = motivationQuotes[Math.floor(Math.random() * motivationQuotes.length)];
             toast.innerText = randomQuote;
@@ -414,7 +407,7 @@
 
         function resetData() {
             if (confirm('Kya aap saara data reset karna chahte hain?')) {
-                localStorage.removeItem('dev_systems_data');
+                localStorage.removeItem('dev_systems_data_30');
                 trackerData = {};
                 initApp();
             }
