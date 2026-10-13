@@ -305,10 +305,10 @@
             { id: 'sys5', name: 'Daily Sketch Work!', class: 'sys-5' }
         ];
 
-        const TOTAL_DAYS = 30; // 30 Days Target set
+        const TOTAL_DAYS = 30; // 30 Days Target set explicitly
 
-        // Load data from localStorage or initialize empty
-        let trackerData = JSON.parse(localStorage.getItem('dev_systems_data_30')) || {};
+        // Load data from localStorage or initialize empty (New key to avoid old 14-day cache conflict)
+        let trackerData = JSON.parse(localStorage.getItem('dev_systems_data_v30')) || {};
 
         const motivationQuotes = [
             "🔥 Amazing progress! Discipline beats motivation every single time.",
@@ -323,7 +323,7 @@
             container.innerHTML = '';
 
             systems.forEach(sys => {
-                if (!trackerData[sys.id]) {
+                if (!trackerData[sys.id] || trackerData[sys.id].length !== TOTAL_DAYS) {
                     trackerData[sys.id] = Array(TOTAL_DAYS).fill(false);
                 }
 
@@ -361,7 +361,7 @@
         function toggleDay(sysId, dayIndex) {
             let currentState = trackerData[sysId][dayIndex];
             trackerData[sysId][dayIndex] = !currentState;
-            localStorage.setItem('dev_systems_data_30', JSON.stringify(trackerData));
+            localStorage.setItem('dev_systems_data_v30', JSON.stringify(trackerData));
 
             // If checked (turned true), trigger animation & confetti!
             if (!currentState) {
@@ -407,7 +407,7 @@
 
         function resetData() {
             if (confirm('Kya aap saara data reset karna chahte hain?')) {
-                localStorage.removeItem('dev_systems_data_30');
+                localStorage.removeItem('dev_systems_data_v30');
                 trackerData = {};
                 initApp();
             }
