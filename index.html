@@ -4,9 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Systems & Habit Tracker</title>
+
+    <!-- Mobile App Icon & Theme Setup -->
+    <link rel="icon" type="image/png" href="icon.png">
+    <link rel="apple-touch-icon" href="icon.png">
+    <meta name="theme-color" content="#000000">
+
+    <!-- Fonts & External Libraries -->
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <!-- Confetti Library for Animations -->
     <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+
     <style>
         :root {
             --bg-color: #000000;
@@ -307,7 +314,7 @@
 
         const TOTAL_DAYS = 30; // 30 Days Target set explicitly
 
-        // Load data from localStorage or initialize empty (New key to avoid old 14-day cache conflict)
+        // Load data from localStorage or initialize empty
         let trackerData = JSON.parse(localStorage.getItem('dev_systems_data_v30')) || {};
 
         const motivationQuotes = [
@@ -363,7 +370,6 @@
             trackerData[sysId][dayIndex] = !currentState;
             localStorage.setItem('dev_systems_data_v30', JSON.stringify(trackerData));
 
-            // If checked (turned true), trigger animation & confetti!
             if (!currentState) {
                 triggerCelebration();
             }
