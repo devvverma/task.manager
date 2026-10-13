@@ -1,0 +1,981 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: https://devvverma.github.io/task.manager/
+Subject: My Systems & Habit Tracker
+Date: Tue, 13 Oct 2026 17:25:13 GMT
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--aKozjLnqmfvAQrhC3XEtEcXzsEvZ27Y5uOyrZ4nq0T----"
+
+
+------MultipartBoundary--aKozjLnqmfvAQrhC3XEtEcXzsEvZ27Y5uOyrZ4nq0T----
+Content-Type: text/html
+Content-ID: <frame-6134A9BE1ADEBCE8A68D80F51701385B@mhtml.blink>
+Content-Transfer-Encoding: binary
+Content-Location: https://devvverma.github.io/task.manager/
+
+<!DOCTYPE html><html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><link rel="stylesheet" type="text/css" href="cid:css-e8ab994f-5d54-47c0-8d23-8f37b62a2570@mhtml.blink" />
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Systems &amp; Habit Tracker</title>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+    <!-- Confetti Library for Animations -->
+    
+    
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>MY SYSTEMS</h1>
+            <p style="color: var(--text-muted); font-size: 0.9rem;">Consistency is the key to mastery.</p>
+        </header>
+
+        <!-- Affirmation Box -->
+        <div class="quote-box">
+            <p>✨ "Today is best. I am in discipline. I am focused. I will complete all the tasks today."</p>
+        </div>
+
+        <!-- Analytics Dashboard -->
+        <div class="analytics-grid">
+            <div class="stat-card">
+                <h3>Total Done</h3>
+                <div class="value" id="totalDone">0</div>
+            </div>
+            <div class="stat-card">
+                <h3>Completion Rate</h3>
+                <div class="value" id="completionRate">0%</div>
+            </div>
+            <div class="stat-card">
+                <h3>Consistency Streak</h3>
+                <div class="value" id="streakCount">0 Days</div>
+            </div>
+        </div>
+
+        <!-- Systems List (30 Days Grid for each system) -->
+        <div class="systems-container" id="systemsContainer"><div class="system-card sys-1">
+                    <div class="system-header">
+                        <div class="system-title">
+                            <span class="dot"></span>
+                            1H T. Analysis
+                        </div>
+                    </div>
+                <div class="days-grid">
+                        <div class="day-box ">
+                            <div class="day-num">D1</div>
+                            <div class="day-status">·</div>
+                        </div>
+                    
+                        <div class="day-box ">
+                            <div class="day-num">D2</div>
+                            <div class="day-status">·</div>
+                        </div>
+                    
+                        <div class="day-box ">
+                            <div class="day-num">D3</div>
+                            <div class="day-status">·</div>
+                        </div>
+                    
+                        <div class="day-box ">
+                            <div class="day-num">D4</div>
+                            <div class="day-status">·</div>
+                        </div>
+                    
+                        <div class="day-box ">
+                            <div class="day-num">D5</div>
+                            <div class="day-status">·</div>
+                        </div>
+                    
+                        <div class="day-box ">
+                            <div class="day-num">D6</div>
+                            <div class="day-status">·</div>
+                        </div>
+                    
+                        <div class="day-box ">
+                            <div class="day-num">D7</div>
+                            <div class="day-status">·</div>
+                        </div>
+                    
+                        <div class="day-box ">
+                            <div class="day-num">D8</div>
+                            <div class="day-status">·</div>
+                        </div>
+                    
+                        <div class="day-box ">
+                            <div class="day-num">D9</div>
+                            <div class="day-status">·</div>
+                        </div>
+                    
+                        <div class="day-box ">
+                            <div class="day-num">D10</div>
+                            <div class="day-status">·</div>
+                        </div>
+                    
+                        <div class="day-box ">
+                            <div class="day-num">D11</div>
+                            <div class="day-status">·</div>
+                        </div>
+                    
+                        <div class="day-box ">
+                            <div class="day-num">D12</div>
+                            <div class="day-status">·</div>
+                        </div>
+                    
+                        <div class="day-box ">
+                            <div class="day-num">D13</div>
+                            <div class="day-status">·</div>
+                        </div>
+                    
+                        <div class="day-box ">
+                            <div class="day-num">D14</div>
+                            <div class="day-status">·</div>
+                        </div>
+                    
+                        <div class="day-box ">
+                            <div class="day-num">D15</div>
+                            <div class="day-status">·</div>
+                        </div>
+                    
+                        <div class="day-box ">
+                            <div class="day-num">D16</div>
+                            <div class="day-status">·</div>
+                        </div>
+                    
+                        <div class="day-box ">
+                            <div class="day-num">D17</div>
+                            <div class="day-status">·</div>
+                        </div>
+                    
+                        <div class="day-box ">
+                            <div class="day-num">D18</div>
+                            <div class="day-status">·</div>
+                        </div>
+                    
+                        <div class="day-box ">
+                            <div class="day-num">D19</div>
+                            <div class="day-status">·</div>
+                        </div>
+                    
+                        <div class="day-box ">
+                            <div class="day-num">D20</div>
+                            <div class="day-status">·</div>
+                        </div>
+                    
+                        <div class="day-box ">
+                            <div class="day-num">D21</div>
+                            <div class="day-status">·</div>
+                        </div>
+                    
+                        <div class="day-box ">
+                            <div class="day-num">D22</div>
+                            <div class="day-status">·</div>
+                        </div>
+                    
+                        <div class="day-box ">
+                            <div class="day-num">D23</div>
+                            <div class="day-status">·</div>
+                        </div>
+                    
+                        <div class="day-box ">
+                            <div class="day-num">D24</div>
+                            <div class="day-status">·</div>
+                        </div>
+                    
+                        <div class="day-box ">
+                            <div class="day-num">D25</div>
+                            <div class="day-status">·</div>
+                        </div>
+                    
+                        <div class="day-box ">
+                            <div class="day-num">D26</div>
+                            <div class="day-status">·</div>
+                        </div>
+                    
+                        <div class="day-box ">
+                            <div class="day-num">D27</div>
+                            <div class="day-status">·</div>
+                        </div>
+                    
+                        <div class="day-box ">
+                            <div class="day-num">D28</div>
+                            <div class="day-status">·</div>
+                        </div>
+                    
+                        <div class="day-box ">
+                            <div class="day-num">D29</div>
+                            <div class="day-status">·</div>
+                        </div>
+                    
+                        <div class="day-box ">
+                            <div class="day-num">D30</div>
+                            <div class="day-status">·</div>
+                        </div>
+                    </div></div><div class="system-card sys-2">
+                    <div class="system-header">
+                        <div class="system-title">
+                            <span class="dot"></span>
+                            Book Reading!
+                        </div>
+                    </div>
+                <div class="days-grid">
+                        <div class="day-box ">
+                            <div class="day-num">D1</div>
+                            <div class="day-status">·</div>
+                        </div>
+                    
+                        <div class="day-box ">
+                            <div class="day-num">D2</div>
+                            <div class="day-status">·</div>
+                        </div>
+                    
+                        <div class="day-box ">
+                            <div class="day-num">D3</div>
+                            <div class="day-status">·</div>
+                        </div>
+                    
+                        <div class="day-box ">
+                            <div class="day-num">D4</div>
+                            <div class="day-status">·</div>
+                        </div>
+                    
+                        <div class="day-box ">
+                            <div class="day-num">D5</div>
+                            <div class="day-status">·</div>
+                        </div>
+                    
+                        <div class="day-box ">
+                            <div class="day-num">D6</div>
+                            <div class="day-status">·</div>
+                        </div>
+                    
+                        <div class="day-box ">
+                            <div class="day-num">D7</div>
+                            <div class="day-status">·</div>
+                        </div>
+                    
+                        <div class="day-box ">
+                            <div class="day-num">D8</div>
+                            <div class="day-status">·</div>
+                        </div>
+                    
+                        <div class="day-box ">
+                            <div class="day-num">D9</div>
+                            <div class="day-status">·</div>
+                        </div>
+                    
+                        <div class="day-box ">
+                            <div class="day-num">D10</div>
+                            <div class="day-status">·</div>
+                        </div>
+                    
+                        <div class="day-box ">
+                            <div class="day-num">D11</div>
+                            <div class="day-status">·</div>
+                        </div>
+                    
+                        <div class="day-box ">
+                            <div class="day-num">D12</div>
+                            <div class="day-status">·</div>
+                        </div>
+                    
+                        <div class="day-box ">
+                            <div class="day-num">D13</div>
+                            <div class="day-status">·</div>
+                        </div>
+                    
+                        <div class="day-box ">
+                            <div class="day-num">D14</div>
+                            <div class="day-status">·</div>
+                        </div>
+                    
+                        <div class="day-box ">
+                            <div class="day-num">D15</div>
+                            <div class="day-status">·</div>
+                        </div>
+                    
+                        <div class="day-box ">
+                            <div class="day-num">D16</div>
+                            <div class="day-status">·</div>
+                        </div>
+                    
+                        <div class="day-box ">
+                            <div class="day-num">D17</div>
+                            <div class="day-status">·</div>
+                        </div>
+                    
+                        <div class="day-box ">
+                            <div class="day-num">D18</div>
+                            <div class="day-status">·</div>
+                        </div>
+                    
+                        <div class="day-box ">
+                            <div class="day-num">D19</div>
+                            <div class="day-status">·</div>
+                        </div>
+                    
+                        <div class="day-box ">
+                            <div class="day-num">D20</div>
+                            <div class="day-status">·</div>
+                        </div>
+                    
+                        <div class="day-box ">
+                            <div class="day-num">D21</div>
+                            <div class="day-status">·</div>
+                        </div>
+                    
+                        <div class="day-box ">
+                            <div class="day-num">D22</div>
+                            <div class="day-status">·</div>
+                        </div>
+                    
+                        <div class="day-box ">
+                            <div class="day-num">D23</div>
+                            <div class="day-status">·</div>
+                        </div>
+                    
+                        <div class="day-box ">
+                            <div class="day-num">D24</div>
+                            <div class="day-status">·</div>
+                        </div>
+                    
+                        <div class="day-box ">
+                            <div class="day-num">D25</div>
+                            <div class="day-status">·</div>
+                        </div>
+                    
+                        <div class="day-box ">
+                            <div class="day-num">D26</div>
+                            <div class="day-status">·</div>
+                        </div>
+                    
+                        <div class="day-box ">
+                            <div class="day-num">D27</div>
+                            <div class="day-status">·</div>
+                        </div>
+                    
+                        <div class="day-box ">
+                            <div class="day-num">D28</div>
+                            <div class="day-status">·</div>
+                        </div>
+                    
+                        <div class="day-box ">
+                            <div class="day-num">D29</div>
+                            <div class="day-status">·</div>
+                        </div>
+                    
+                        <div class="day-box ">
+                            <div class="day-num">D30</div>
+                            <div class="day-status">·</div>
+                        </div>
+                    </div></div><div class="system-card sys-3">
+                    <div class="system-header">
+                        <div class="system-title">
+                            <span class="dot"></span>
+                            Follow Systems!
+                        </div>
+                    </div>
+                <div class="days-grid">
+                        <div class="day-box ">
+                            <div class="day-num">D1</div>
+                            <div class="day-status">·</div>
+                        </div>
+                    
+                        <div class="day-box ">
+                            <div class="day-num">D2</div>
+                            <div class="day-status">·</div>
+                        </div>
+                    
+                        <div class="day-box ">
+                            <div class="day-num">D3</div>
+                            <div class="day-status">·</div>
+                        </div>
+                    
+                        <div class="day-box ">
+                            <div class="day-num">D4</div>
+                            <div class="day-status">·</div>
+                        </div>
+                    
+                        <div class="day-box ">
+                            <div class="day-num">D5</div>
+                            <div class="day-status">·</div>
+                        </div>
+                    
+                        <div class="day-box ">
+                            <div class="day-num">D6</div>
+                            <div class="day-status">·</div>
+                        </div>
+                    
+                        <div class="day-box ">
+                            <div class="day-num">D7</div>
+                            <div class="day-status">·</div>
+                        </div>
+                    
+                        <div class="day-box ">
+                            <div class="day-num">D8</div>
+                            <div class="day-status">·</div>
+                        </div>
+                    
+                        <div class="day-box ">
+                            <div class="day-num">D9</div>
+                            <div class="day-status">·</div>
+                        </div>
+                    
+                        <div class="day-box ">
+                            <div class="day-num">D10</div>
+                            <div class="day-status">·</div>
+                        </div>
+                    
+                        <div class="day-box ">
+                            <div class="day-num">D11</div>
+                            <div class="day-status">·</div>
+                        </div>
+                    
+                        <div class="day-box ">
+                            <div class="day-num">D12</div>
+                            <div class="day-status">·</div>
+                        </div>
+                    
+                        <div class="day-box ">
+                            <div class="day-num">D13</div>
+                            <div class="day-status">·</div>
+                        </div>
+                    
+                        <div class="day-box ">
+                            <div class="day-num">D14</div>
+                            <div class="day-status">·</div>
+                        </div>
+                    
+                        <div class="day-box ">
+                            <div class="day-num">D15</div>
+                            <div class="day-status">·</div>
+                        </div>
+                    
+                        <div class="day-box ">
+                            <div class="day-num">D16</div>
+                            <div class="day-status">·</div>
+                        </div>
+                    
+                        <div class="day-box ">
+                            <div class="day-num">D17</div>
+                            <div class="day-status">·</div>
+                        </div>
+                    
+                        <div class="day-box ">
+                            <div class="day-num">D18</div>
+                            <div class="day-status">·</div>
+                        </div>
+                    
+                        <div class="day-box ">
+                            <div class="day-num">D19</div>
+                            <div class="day-status">·</div>
+                        </div>
+                    
+                        <div class="day-box ">
+                            <div class="day-num">D20</div>
+                            <div class="day-status">·</div>
+                        </div>
+                    
+                        <div class="day-box ">
+                            <div class="day-num">D21</div>
+                            <div class="day-status">·</div>
+                        </div>
+                    
+                        <div class="day-box ">
+                            <div class="day-num">D22</div>
+                            <div class="day-status">·</div>
+                        </div>
+                    
+                        <div class="day-box ">
+                            <div class="day-num">D23</div>
+                            <div class="day-status">·</div>
+                        </div>
+                    
+                        <div class="day-box ">
+                            <div class="day-num">D24</div>
+                            <div class="day-status">·</div>
+                        </div>
+                    
+                        <div class="day-box ">
+                            <div class="day-num">D25</div>
+                            <div class="day-status">·</div>
+                        </div>
+                    
+                        <div class="day-box ">
+                            <div class="day-num">D26</div>
+                            <div class="day-status">·</div>
+                        </div>
+                    
+                        <div class="day-box ">
+                            <div class="day-num">D27</div>
+                            <div class="day-status">·</div>
+                        </div>
+                    
+                        <div class="day-box ">
+                            <div class="day-num">D28</div>
+                            <div class="day-status">·</div>
+                        </div>
+                    
+                        <div class="day-box ">
+                            <div class="day-num">D29</div>
+                            <div class="day-status">·</div>
+                        </div>
+                    
+                        <div class="day-box ">
+                            <div class="day-num">D30</div>
+                            <div class="day-status">·</div>
+                        </div>
+                    </div></div><div class="system-card sys-4">
+                    <div class="system-header">
+                        <div class="system-title">
+                            <span class="dot"></span>
+                            2-3 Hours Study!
+                        </div>
+                    </div>
+                <div class="days-grid">
+                        <div class="day-box ">
+                            <div class="day-num">D1</div>
+                            <div class="day-status">·</div>
+                        </div>
+                    
+                        <div class="day-box ">
+                            <div class="day-num">D2</div>
+                            <div class="day-status">·</div>
+                        </div>
+                    
+                        <div class="day-box ">
+                            <div class="day-num">D3</div>
+                            <div class="day-status">·</div>
+                        </div>
+                    
+                        <div class="day-box ">
+                            <div class="day-num">D4</div>
+                            <div class="day-status">·</div>
+                        </div>
+                    
+                        <div class="day-box ">
+                            <div class="day-num">D5</div>
+                            <div class="day-status">·</div>
+                        </div>
+                    
+                        <div class="day-box ">
+                            <div class="day-num">D6</div>
+                            <div class="day-status">·</div>
+                        </div>
+                    
+                        <div class="day-box ">
+                            <div class="day-num">D7</div>
+                            <div class="day-status">·</div>
+                        </div>
+                    
+                        <div class="day-box ">
+                            <div class="day-num">D8</div>
+                            <div class="day-status">·</div>
+                        </div>
+                    
+                        <div class="day-box ">
+                            <div class="day-num">D9</div>
+                            <div class="day-status">·</div>
+                        </div>
+                    
+                        <div class="day-box ">
+                            <div class="day-num">D10</div>
+                            <div class="day-status">·</div>
+                        </div>
+                    
+                        <div class="day-box ">
+                            <div class="day-num">D11</div>
+                            <div class="day-status">·</div>
+                        </div>
+                    
+                        <div class="day-box ">
+                            <div class="day-num">D12</div>
+                            <div class="day-status">·</div>
+                        </div>
+                    
+                        <div class="day-box ">
+                            <div class="day-num">D13</div>
+                            <div class="day-status">·</div>
+                        </div>
+                    
+                        <div class="day-box ">
+                            <div class="day-num">D14</div>
+                            <div class="day-status">·</div>
+                        </div>
+                    
+                        <div class="day-box ">
+                            <div class="day-num">D15</div>
+                            <div class="day-status">·</div>
+                        </div>
+                    
+                        <div class="day-box ">
+                            <div class="day-num">D16</div>
+                            <div class="day-status">·</div>
+                        </div>
+                    
+                        <div class="day-box ">
+                            <div class="day-num">D17</div>
+                            <div class="day-status">·</div>
+                        </div>
+                    
+                        <div class="day-box ">
+                            <div class="day-num">D18</div>
+                            <div class="day-status">·</div>
+                        </div>
+                    
+                        <div class="day-box ">
+                            <div class="day-num">D19</div>
+                            <div class="day-status">·</div>
+                        </div>
+                    
+                        <div class="day-box ">
+                            <div class="day-num">D20</div>
+                            <div class="day-status">·</div>
+                        </div>
+                    
+                        <div class="day-box ">
+                            <div class="day-num">D21</div>
+                            <div class="day-status">·</div>
+                        </div>
+                    
+                        <div class="day-box ">
+                            <div class="day-num">D22</div>
+                            <div class="day-status">·</div>
+                        </div>
+                    
+                        <div class="day-box ">
+                            <div class="day-num">D23</div>
+                            <div class="day-status">·</div>
+                        </div>
+                    
+                        <div class="day-box ">
+                            <div class="day-num">D24</div>
+                            <div class="day-status">·</div>
+                        </div>
+                    
+                        <div class="day-box ">
+                            <div class="day-num">D25</div>
+                            <div class="day-status">·</div>
+                        </div>
+                    
+                        <div class="day-box ">
+                            <div class="day-num">D26</div>
+                            <div class="day-status">·</div>
+                        </div>
+                    
+                        <div class="day-box ">
+                            <div class="day-num">D27</div>
+                            <div class="day-status">·</div>
+                        </div>
+                    
+                        <div class="day-box ">
+                            <div class="day-num">D28</div>
+                            <div class="day-status">·</div>
+                        </div>
+                    
+                        <div class="day-box ">
+                            <div class="day-num">D29</div>
+                            <div class="day-status">·</div>
+                        </div>
+                    
+                        <div class="day-box ">
+                            <div class="day-num">D30</div>
+                            <div class="day-status">·</div>
+                        </div>
+                    </div></div><div class="system-card sys-5">
+                    <div class="system-header">
+                        <div class="system-title">
+                            <span class="dot"></span>
+                            Daily Sketch Work!
+                        </div>
+                    </div>
+                <div class="days-grid">
+                        <div class="day-box ">
+                            <div class="day-num">D1</div>
+                            <div class="day-status">·</div>
+                        </div>
+                    
+                        <div class="day-box ">
+                            <div class="day-num">D2</div>
+                            <div class="day-status">·</div>
+                        </div>
+                    
+                        <div class="day-box ">
+                            <div class="day-num">D3</div>
+                            <div class="day-status">·</div>
+                        </div>
+                    
+                        <div class="day-box ">
+                            <div class="day-num">D4</div>
+                            <div class="day-status">·</div>
+                        </div>
+                    
+                        <div class="day-box ">
+                            <div class="day-num">D5</div>
+                            <div class="day-status">·</div>
+                        </div>
+                    
+                        <div class="day-box ">
+                            <div class="day-num">D6</div>
+                            <div class="day-status">·</div>
+                        </div>
+                    
+                        <div class="day-box ">
+                            <div class="day-num">D7</div>
+                            <div class="day-status">·</div>
+                        </div>
+                    
+                        <div class="day-box ">
+                            <div class="day-num">D8</div>
+                            <div class="day-status">·</div>
+                        </div>
+                    
+                        <div class="day-box ">
+                            <div class="day-num">D9</div>
+                            <div class="day-status">·</div>
+                        </div>
+                    
+                        <div class="day-box ">
+                            <div class="day-num">D10</div>
+                            <div class="day-status">·</div>
+                        </div>
+                    
+                        <div class="day-box ">
+                            <div class="day-num">D11</div>
+                            <div class="day-status">·</div>
+                        </div>
+                    
+                        <div class="day-box ">
+                            <div class="day-num">D12</div>
+                            <div class="day-status">·</div>
+                        </div>
+                    
+                        <div class="day-box ">
+                            <div class="day-num">D13</div>
+                            <div class="day-status">·</div>
+                        </div>
+                    
+                        <div class="day-box ">
+                            <div class="day-num">D14</div>
+                            <div class="day-status">·</div>
+                        </div>
+                    
+                        <div class="day-box ">
+                            <div class="day-num">D15</div>
+                            <div class="day-status">·</div>
+                        </div>
+                    
+                        <div class="day-box ">
+                            <div class="day-num">D16</div>
+                            <div class="day-status">·</div>
+                        </div>
+                    
+                        <div class="day-box ">
+                            <div class="day-num">D17</div>
+                            <div class="day-status">·</div>
+                        </div>
+                    
+                        <div class="day-box ">
+                            <div class="day-num">D18</div>
+                            <div class="day-status">·</div>
+                        </div>
+                    
+                        <div class="day-box ">
+                            <div class="day-num">D19</div>
+                            <div class="day-status">·</div>
+                        </div>
+                    
+                        <div class="day-box ">
+                            <div class="day-num">D20</div>
+                            <div class="day-status">·</div>
+                        </div>
+                    
+                        <div class="day-box ">
+                            <div class="day-num">D21</div>
+                            <div class="day-status">·</div>
+                        </div>
+                    
+                        <div class="day-box ">
+                            <div class="day-num">D22</div>
+                            <div class="day-status">·</div>
+                        </div>
+                    
+                        <div class="day-box ">
+                            <div class="day-num">D23</div>
+                            <div class="day-status">·</div>
+                        </div>
+                    
+                        <div class="day-box ">
+                            <div class="day-num">D24</div>
+                            <div class="day-status">·</div>
+                        </div>
+                    
+                        <div class="day-box ">
+                            <div class="day-num">D25</div>
+                            <div class="day-status">·</div>
+                        </div>
+                    
+                        <div class="day-box ">
+                            <div class="day-num">D26</div>
+                            <div class="day-status">·</div>
+                        </div>
+                    
+                        <div class="day-box ">
+                            <div class="day-num">D27</div>
+                            <div class="day-status">·</div>
+                        </div>
+                    
+                        <div class="day-box ">
+                            <div class="day-num">D28</div>
+                            <div class="day-status">·</div>
+                        </div>
+                    
+                        <div class="day-box ">
+                            <div class="day-num">D29</div>
+                            <div class="day-status">·</div>
+                        </div>
+                    
+                        <div class="day-box ">
+                            <div class="day-num">D30</div>
+                            <div class="day-status">·</div>
+                        </div>
+                    </div></div></div>
+
+        <div class="footer-actions">
+            <button class="action-btn reset-btn">Reset All Data</button>
+        </div>
+    </div>
+
+    <!-- Motivational Toast Notification -->
+    <div id="toast">🔥 Great job! Keep pushing forward!</div>
+
+    
+
+
+</body></html>
+------MultipartBoundary--aKozjLnqmfvAQrhC3XEtEcXzsEvZ27Y5uOyrZ4nq0T----
+Content-Type: text/css
+Content-Transfer-Encoding: binary
+Content-Location: https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap
+
+@charset "utf-8";
+
+@font-face { font-family: "Plus Jakarta Sans"; font-style: normal; font-weight: 400; font-display: swap; src: url("https://fonts.gstatic.com/s/plusjakartasans/v12/LDIoaomQNQcsA88c7O9yZ4KMCoOg4Ko70yygg_vbd-E.woff2") format("woff2"); unicode-range: U+460-52F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F; }
+
+@font-face { font-family: "Plus Jakarta Sans"; font-style: normal; font-weight: 400; font-display: swap; src: url("https://fonts.gstatic.com/s/plusjakartasans/v12/LDIoaomQNQcsA88c7O9yZ4KMCoOg4Ko50yygg_vbd-E.woff2") format("woff2"); unicode-range: U+102-103, U+110-111, U+128-129, U+168-169, U+1A0-1A1, U+1AF-1B0, U+300-301, U+303-304, U+308-309, U+323, U+329, U+1EA0-1EF9, U+20AB; }
+
+@font-face { font-family: "Plus Jakarta Sans"; font-style: normal; font-weight: 400; font-display: swap; src: url("https://fonts.gstatic.com/s/plusjakartasans/v12/LDIoaomQNQcsA88c7O9yZ4KMCoOg4Ko40yygg_vbd-E.woff2") format("woff2"); unicode-range: U+100-2BA, U+2BD-2C5, U+2C7-2CC, U+2CE-2D7, U+2DD-2FF, U+304, U+308, U+329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+
+@font-face { font-family: "Plus Jakarta Sans"; font-style: normal; font-weight: 400; font-display: swap; src: url("https://fonts.gstatic.com/s/plusjakartasans/v12/LDIoaomQNQcsA88c7O9yZ4KMCoOg4Ko20yygg_vb.woff2") format("woff2"); unicode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304, U+308, U+329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+
+@font-face { font-family: "Plus Jakarta Sans"; font-style: normal; font-weight: 500; font-display: swap; src: url("https://fonts.gstatic.com/s/plusjakartasans/v12/LDIoaomQNQcsA88c7O9yZ4KMCoOg4Ko70yygg_vbd-E.woff2") format("woff2"); unicode-range: U+460-52F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F; }
+
+@font-face { font-family: "Plus Jakarta Sans"; font-style: normal; font-weight: 500; font-display: swap; src: url("https://fonts.gstatic.com/s/plusjakartasans/v12/LDIoaomQNQcsA88c7O9yZ4KMCoOg4Ko50yygg_vbd-E.woff2") format("woff2"); unicode-range: U+102-103, U+110-111, U+128-129, U+168-169, U+1A0-1A1, U+1AF-1B0, U+300-301, U+303-304, U+308-309, U+323, U+329, U+1EA0-1EF9, U+20AB; }
+
+@font-face { font-family: "Plus Jakarta Sans"; font-style: normal; font-weight: 500; font-display: swap; src: url("https://fonts.gstatic.com/s/plusjakartasans/v12/LDIoaomQNQcsA88c7O9yZ4KMCoOg4Ko40yygg_vbd-E.woff2") format("woff2"); unicode-range: U+100-2BA, U+2BD-2C5, U+2C7-2CC, U+2CE-2D7, U+2DD-2FF, U+304, U+308, U+329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+
+@font-face { font-family: "Plus Jakarta Sans"; font-style: normal; font-weight: 500; font-display: swap; src: url("https://fonts.gstatic.com/s/plusjakartasans/v12/LDIoaomQNQcsA88c7O9yZ4KMCoOg4Ko20yygg_vb.woff2") format("woff2"); unicode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304, U+308, U+329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+
+@font-face { font-family: "Plus Jakarta Sans"; font-style: normal; font-weight: 600; font-display: swap; src: url("https://fonts.gstatic.com/s/plusjakartasans/v12/LDIoaomQNQcsA88c7O9yZ4KMCoOg4Ko70yygg_vbd-E.woff2") format("woff2"); unicode-range: U+460-52F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F; }
+
+@font-face { font-family: "Plus Jakarta Sans"; font-style: normal; font-weight: 600; font-display: swap; src: url("https://fonts.gstatic.com/s/plusjakartasans/v12/LDIoaomQNQcsA88c7O9yZ4KMCoOg4Ko50yygg_vbd-E.woff2") format("woff2"); unicode-range: U+102-103, U+110-111, U+128-129, U+168-169, U+1A0-1A1, U+1AF-1B0, U+300-301, U+303-304, U+308-309, U+323, U+329, U+1EA0-1EF9, U+20AB; }
+
+@font-face { font-family: "Plus Jakarta Sans"; font-style: normal; font-weight: 600; font-display: swap; src: url("https://fonts.gstatic.com/s/plusjakartasans/v12/LDIoaomQNQcsA88c7O9yZ4KMCoOg4Ko40yygg_vbd-E.woff2") format("woff2"); unicode-range: U+100-2BA, U+2BD-2C5, U+2C7-2CC, U+2CE-2D7, U+2DD-2FF, U+304, U+308, U+329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+
+@font-face { font-family: "Plus Jakarta Sans"; font-style: normal; font-weight: 600; font-display: swap; src: url("https://fonts.gstatic.com/s/plusjakartasans/v12/LDIoaomQNQcsA88c7O9yZ4KMCoOg4Ko20yygg_vb.woff2") format("woff2"); unicode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304, U+308, U+329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+
+@font-face { font-family: "Plus Jakarta Sans"; font-style: normal; font-weight: 700; font-display: swap; src: url("https://fonts.gstatic.com/s/plusjakartasans/v12/LDIoaomQNQcsA88c7O9yZ4KMCoOg4Ko70yygg_vbd-E.woff2") format("woff2"); unicode-range: U+460-52F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F; }
+
+@font-face { font-family: "Plus Jakarta Sans"; font-style: normal; font-weight: 700; font-display: swap; src: url("https://fonts.gstatic.com/s/plusjakartasans/v12/LDIoaomQNQcsA88c7O9yZ4KMCoOg4Ko50yygg_vbd-E.woff2") format("woff2"); unicode-range: U+102-103, U+110-111, U+128-129, U+168-169, U+1A0-1A1, U+1AF-1B0, U+300-301, U+303-304, U+308-309, U+323, U+329, U+1EA0-1EF9, U+20AB; }
+
+@font-face { font-family: "Plus Jakarta Sans"; font-style: normal; font-weight: 700; font-display: swap; src: url("https://fonts.gstatic.com/s/plusjakartasans/v12/LDIoaomQNQcsA88c7O9yZ4KMCoOg4Ko40yygg_vbd-E.woff2") format("woff2"); unicode-range: U+100-2BA, U+2BD-2C5, U+2C7-2CC, U+2CE-2D7, U+2DD-2FF, U+304, U+308, U+329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+
+@font-face { font-family: "Plus Jakarta Sans"; font-style: normal; font-weight: 700; font-display: swap; src: url("https://fonts.gstatic.com/s/plusjakartasans/v12/LDIoaomQNQcsA88c7O9yZ4KMCoOg4Ko20yygg_vb.woff2") format("woff2"); unicode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304, U+308, U+329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+------MultipartBoundary--aKozjLnqmfvAQrhC3XEtEcXzsEvZ27Y5uOyrZ4nq0T----
+Content-Type: text/css
+Content-Transfer-Encoding: binary
+Content-Location: cid:css-e8ab994f-5d54-47c0-8d23-8f37b62a2570@mhtml.blink
+
+@charset "utf-8";
+
+:root { --bg-color: #000000; --card-bg: #0a0a0c; --border-color: rgba(255, 255, 255, 0.08); --text-main: #f8fafc; --text-muted: #71717a; --accent-green: #22c55e; --accent-pink: #ec4899; --accent-orange: #f97316; --accent-yellow: #eab308; --accent-blue: #3b82f6; }
+
+* { box-sizing: border-box; margin: 0px; padding: 0px; font-family: "Plus Jakarta Sans", sans-serif; }
+
+body { background-color: var(--bg-color); color: var(--text-main); min-height: 100vh; padding: 20px; }
+
+.container { max-width: 900px; margin: 0px auto; }
+
+header { text-align: center; margin-bottom: 25px; }
+
+header h1 { font-size: 2.2rem; background: linear-gradient(to right, rgb(56, 189, 248), rgb(129, 140, 248), rgb(192, 132, 252)) text; -webkit-text-fill-color: transparent; margin-bottom: 8px; }
+
+.quote-box { background: var(--card-bg); border: 1px solid var(--border-color); padding: 15px 20px; border-radius: 12px; text-align: center; margin-bottom: 25px; box-shadow: rgba(0, 0, 0, 0.5) 0px 4px 20px; }
+
+.quote-box p { font-size: 0.95rem; color: rgb(56, 189, 248); font-weight: 500; }
+
+.analytics-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 15px; margin-bottom: 25px; }
+
+.stat-card { background: var(--card-bg); border: 1px solid var(--border-color); padding: 18px; border-radius: 12px; text-align: center; }
+
+.stat-card h3 { font-size: 0.8rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 6px; }
+
+.stat-card .value { font-size: 1.6rem; font-weight: 700; color: var(--text-main); }
+
+.systems-container { display: grid; grid-template-columns: 1fr; gap: 20px; }
+
+.system-card { background: var(--card-bg); border: 1px solid var(--border-color); border-radius: 16px; padding: 20px; transition: 0.2s; }
+
+.system-card:hover { border-color: rgba(255, 255, 255, 0.2); }
+
+.system-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 15px; }
+
+.system-title { font-size: 1.1rem; font-weight: 600; display: flex; align-items: center; gap: 10px; }
+
+.dot { width: 10px; height: 10px; border-radius: 50%; }
+
+.days-grid { display: grid; grid-template-columns: repeat(7, 1fr); gap: 6px; }
+
+@media (max-width: 600px) {
+  .days-grid { grid-template-columns: repeat(7, 1fr); }
+}
+
+.day-box { background: rgb(18, 18, 22); border: 1px solid var(--border-color); border-radius: 8px; padding: 8px 2px; text-align: center; cursor: pointer; transition: 0.2s; user-select: none; }
+
+.day-box:hover { border-color: rgb(56, 189, 248); transform: translateY(-2px); }
+
+.day-box .day-num { font-size: 0.65rem; color: var(--text-muted); margin-bottom: 2px; }
+
+.day-box .day-status { font-size: 0.85rem; }
+
+.day-box.completed { background: rgba(34, 197, 94, 0.15); border-color: var(--accent-green); animation: 0.4s ease 0s 1 normal none running pulseCheck; }
+
+.day-box.completed .day-status { color: var(--accent-green); font-weight: bold; }
+
+@keyframes pulseCheck { 
+  0% { transform: scale(1); }
+  50% { transform: scale(1.15); }
+  100% { transform: scale(1); }
+}
+
+.sys-1 .dot { background-color: var(--accent-green); }
+
+.sys-2 .dot { background-color: var(--accent-pink); }
+
+.sys-3 .dot { background-color: var(--accent-orange); }
+
+.sys-4 .dot { background-color: var(--accent-yellow); }
+
+.sys-5 .dot { background-color: var(--accent-blue); }
+
+#toast { visibility: hidden; position: fixed; bottom: 30px; left: 50%; transform: translateX(-50%); background: linear-gradient(135deg, rgb(34, 197, 94), rgb(22, 163, 74)); color: white; padding: 12px 24px; border-radius: 30px; font-weight: 600; box-shadow: rgba(0, 0, 0, 0.5) 0px 10px 25px; z-index: 1000; transition: opacity 0.3s, bottom 0.3s; }
+
+#toast.show { visibility: visible; bottom: 50px; }
+
+.footer-actions { display: flex; justify-content: center; gap: 15px; margin-top: 35px; }
+
+.action-btn { background: transparent; border: 1px solid var(--border-color); color: var(--text-muted); padding: 8px 16px; border-radius: 8px; cursor: pointer; font-size: 0.85rem; transition: 0.2s; }
+
+.action-btn:hover { border-color: rgb(56, 189, 248); color: rgb(56, 189, 248); }
+
+.reset-btn:hover { border-color: rgb(239, 68, 68); color: rgb(239, 68, 68); }
+------MultipartBoundary--aKozjLnqmfvAQrhC3XEtEcXzsEvZ27Y5uOyrZ4nq0T------
